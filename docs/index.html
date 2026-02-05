@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CHECKLIST</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body style="margin: 0%;">
+    <script>
+        function toggleBtn(btn) {
+            btn.classList.toggle("on");
+            btn.textContent = btn.classList.contains("on") ? "ON" : "OFF";
+        }
+    </script>
+
+    <div class="bg">
+        <div class="glass">
+            <div>
+                <h1 style="text-align: center; color: rgba(238, 33, 183, 0.942); font-size: 45px;">NEW BEGINNING - NEW
+                    STRATEGIES</h1>
+            </div>
+            <div>
+                <p class="heading">Analysis the Trend</p>
+                <ul class="content">
+                    <li>
+                        <span>Daily</span>
+                        <button class="onoff-btn" onclick="toggleBtn(this)">OFF</button>
+
+                    </li><br>
+                    <li>
+                        <span>4 Hours</span>
+                        <button class="onoff-btn" onclick="toggleBtn(this)">OFF</button>
+                    </li>
+                </ul>
+            </div>
+            <div>
+                <p class="heading">Area of Interest(AOI)</p>
+                <ul class="content">
+                    <li>
+                        <span>Daily</span>
+                        <button class="onoff-btn" onclick="toggleBtn(this)">OFF</button>
+                    </li> <br>
+                    <li>
+                        <span>4 Hours</span>
+                        <button class="onoff-btn" onclick="toggleBtn(this)">OFF</button>
+
+                    </li>
+                </ul>
+            </div>
+            <div>
+                <p class="heading">Fibnacci</p>
+                <ul class="content">
+                    <li>
+                        <span>4 Hours</span>
+                        <button class="onoff-btn" onclick="toggleBtn(this)">OFF</button>
+                    </li> <br>
+                    <li>
+                        <span>2 Hours</span>
+                        <button class="onoff-btn" onclick="toggleBtn(this)">OFF</button>
+                    </li>
+                </ul>
+            </div>
+            <div>
+                <p class="heading">Round Psychological</p>
+                <ul class="content">
+                    <li>
+                        <span>For all</span>
+                        <button class="onoff-btn" onclick="toggleBtn(this)">OFF</button>
+                    </li>
+                </ul>
+            </div>
+            <div>
+                <p class="heading">Pattern</p>
+                <ul class="content">
+                    <li>
+                        <span>Trend Line</span>
+                        <button class="onoff-btn" onclick="toggleBtn(this)">OFF</button>
+                    </li>
+                </ul>
+            </div>
+            <div>
+                <p class="heading">Shift of Structure (SOS)</p>
+                <ul class="content">
+                    <li>
+                        <span>15 Min</span>
+                        <button class="onoff-btn" onclick="toggleBtn(this)">OFF</button>
+                    </li>
+                </ul>
+            </div>
+            <div>
+                <p class="heading">Exponential Moving Average (EMA)</p>
+                <ul class="content">
+                    <li>
+                        <span>4 Hours</span>
+                        <button class="onoff-btn" onclick="toggleBtn(this)">OFF</button>
+                    </li> <br>
+                    <li>
+                        <span>2 Hours</span>
+                        <button class="onoff-btn" onclick="toggleBtn(this)">OFF</button>
+                    </li> <br>
+                    <li>
+                        <span>1 Hours</span>
+                        <button class="onoff-btn" onclick="toggleBtn(this)">OFF</button>
+                    </li> <br>
+                    <li>
+                        <span>30 Min</span>
+                        <button class="onoff-btn" onclick="toggleBtn(this)">OFF</button>
+                    </li>
+                </ul>
+            </div>
+        </div>
+</body>
+
+</html>
